@@ -7,7 +7,7 @@ const person = {
         return this.name;
     },
 };
-console.log(person.getName()); // output Lee Min Ho
+console.log(person.getName()); //output Lee Min Ho
 //ex 125 :- make a same object method with a multiple property of length and width
 const caluArea = {
     length: 5,
@@ -26,7 +26,7 @@ const myObject = {
             console.log(this.property); // still accesses myObject "property"
         };
         innerMethod();
-    }
+    },
 };
 myObject.outerMethod(); //this example shows that usin an arrow function for the inner method preserves the "this" context from the outer method.
 export {};
